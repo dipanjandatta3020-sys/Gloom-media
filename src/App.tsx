@@ -25,6 +25,7 @@ import PhilosophySection from "./components/PhilosophySection.tsx";
 import ServiceOfferSection from "./components/ServiceOfferSection.tsx";
 import CompaniesSection from "./components/CompaniesSection.tsx";
 import SchedulerSection from "./components/SchedulerSection.tsx";
+import agencyWizardImg from "./assets/images/agency_wizard_1779360033306.png";
 
 // Floating badges surrounding the wizard
 const floatingPlatformBadges = [
@@ -269,7 +270,7 @@ export default function App() {
               
               {/* Master low-poly wizard image */}
               <img
-                src="/src/assets/images/agency_wizard_1779360033306.png"
+                src={agencyWizardImg}
                 alt="Digital Alchemy Wizard"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-contain drop-shadow-[0_25px_50px_rgba(0,0,0,0.7)] select-none hover:scale-[1.02] transition-transform duration-500"
