@@ -1,0 +1,6 @@
+{
+  "name": "Agency Hero Showcase",
+  "description": "A highly polished, responsive responsive hero section for a modern digital agency with interactive parallax animations and floating low-poly character elements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
